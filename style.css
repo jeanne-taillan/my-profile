@@ -1,0 +1,117 @@
+body {
+	background-color: #FF5733 ;
+}
+
+h1, h2, h3 {
+
+font-family: "SimpleHandmade";
+
+}
+
+h1 {
+	color:#C70039 ;
+	font-size:400%;
+	text-shadow: 10px 12px #A9DFBF;
+	text-align: center;
+	letter-spacing: 8px ;
+}
+p {
+	color:#900C3F;
+	font-family: Helvetica;
+	line-height: 2;
+
+}
+h2 {
+	color:#A9DFBF;
+	text-decoration: underline;
+	text-align: center;
+	font-size:150%;
+
+}
+h3 {
+	color:#A9DFBF;
+	text-shadow: 6px 7px #C70039;
+	text-align: center;
+	line-height: 2;
+
+}
+
+
+a {
+	text-decoration: none;
+	color:#581845 ;
+}
+
+a:hover {
+	color: #FFC300;
+	text-decoration: underline;
+}
+
+li {
+	color:#900C3F 
+}
+
+img {
+	width: 120px;
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+}
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px;
+	margin: 15px;
+	border-radius: 5%;
+
+}
+
+#list-inline {
+	list-style: none;
+
+}
+
+#list-inline li {
+	padding: 100px;
+	display: inline;
+
+}
+
+i {
+	font-size: 3em;
+	vertical-align: middle;
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
